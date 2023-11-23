@@ -34,7 +34,7 @@ class Chessboard:
         print(" ┏━━━━━━━━━━━━━━━━┓ ")
         for i, row in enumerate(self.board):
             row_str = ' '.join(row)
-            print(f"{8 - i}│ {row_str.ljust(15)}│")
+            print(f"{8 - i}│ {row_str.ljust(16)}│")
         print(" ┗━━━━━━━━━━━━━━━━┛")
 
 
